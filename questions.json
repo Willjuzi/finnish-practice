@@ -1,15 +1,10 @@
 [
   {
-    "question": "What is the Finnish word for 'dog'?",
-    "options": ["koira", "kissa", "hevonen"],
-    "answer": "koira",
-    "ttsText": "koira"
+    "finnish": "koira",
+    "english": "dog"
   },
   {
-    "question": "What is the Finnish word for 'cat'?",
-    "options": ["kissa", "koira", "hevonen"],
-    "answer": "kissa",
-    "ttsText": "kissa"
+    "finnish": "kissa",
+    "english": "cat"
   }
 ]
-
