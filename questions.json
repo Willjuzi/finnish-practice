@@ -1,10 +1,22 @@
 [
-  {
-    "finnish": "koira",
-    "english": "dog"
-  },
-  {
-    "finnish": "kissa",
-    "english": "cat"
-  }
+  { "finnish": "koira",      "english": "dog" },
+  { "finnish": "kissa",      "english": "cat" },
+  { "finnish": "hevonen",    "english": "horse" },
+  { "finnish": "lammas",     "english": "sheep" },
+  { "finnish": "lehmä",      "english": "cow" },
+  { "finnish": "kana",       "english": "chicken" },
+  { "finnish": "sika",       "english": "pig" },
+  { "finnish": "kalastaa",   "english": "to fish" },
+  { "finnish": "juosta",     "english": "to run" },
+  { "finnish": "syödä",      "english": "to eat" },
+  { "finnish": "juoda",      "english": "to drink" },
+  { "finnish": "nukkua",     "english": "to sleep" },
+  { "finnish": "kirja",      "english": "book" },
+  { "finnish": "talo",       "english": "house" },
+  { "finnish": "auto",       "english": "car" },
+  { "finnish": "puu",        "english": "tree" },
+  { "finnish": "vesi",       "english": "water" },
+  { "finnish": "ruoka",      "english": "food" },
+  { "finnish": "kala",       "english": "fish" },
+  { "finnish": "musiikki",   "english": "music" }
 ]
