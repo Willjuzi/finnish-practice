@@ -1,8 +1,15 @@
 [
   {
-    "question": "芬兰语中 'cat' 的正确翻译是什么？",
-    "options": ["koira", "kissa", "hevonen", "lammas"],
+    "question": "What is the Finnish word for 'dog'?",
+    "options": ["koira", "kissa", "hevonen"],
+    "answer": "koira",
+    "ttsText": "koira"
+  },
+  {
+    "question": "What is the Finnish word for 'cat'?",
+    "options": ["kissa", "koira", "hevonen"],
     "answer": "kissa",
     "ttsText": "kissa"
   }
 ]
+
