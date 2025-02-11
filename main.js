@@ -1,21 +1,24 @@
 // main.js
-let questions = [
-  {
-    "question": "芬兰语中 'cat' 的正确翻译是什么？",
-    "options": ["koira", "kissa", "hevonen", "lammas"],
-    "answer": "kissa",
-    "ttsText": "kissa"
-  }
-];
+
+let questions = [];
 let currentQuestionIndex = 0;
 
-// 直接调用显示题目的函数
-showQuestion();
+// 从 questions.json 文件加载题库数据
+fetch('questions.json')
+  .then(response => response.json())
+  .then(data => {
+      questions = data;
+      showQuestion();  // 数据加载完成后显示题目
+  })
+  .catch(error => console.error('加载题库出错：', error));
 
 // 显示当前题目
 function showQuestion() {
     const container = document.getElementById('question-container');
     container.innerHTML = '';  // 清空旧内容
+
+    // 防止在数据还未加载完成时调用此函数
+    if (questions.length === 0) return;
 
     const questionObj = questions[currentQuestionIndex];
 
@@ -55,4 +58,3 @@ document.getElementById('next-btn').addEventListener('click', () => {
     currentQuestionIndex = (currentQuestionIndex + 1) % questions.length;
     showQuestion();
 });
-
