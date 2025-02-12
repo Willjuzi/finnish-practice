@@ -3,48 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finnish Vocabulary Practice</title>
+    <title>Learning Finnish - Have Fun!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
+            background-color: #f0f8ff;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
         h1 {
-            font-size: 24px;
+            font-size: 26px;
+            color: #007bff;
+        }
+        .logo {
+            width: 120px;
+            margin-bottom: 10px;
         }
         select {
             font-size: 16px;
-            padding: 5px;
+            padding: 8px;
             margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #007bff;
         }
         #question-container {
             margin: 20px 0;
         }
-        button {
+        .option-btn {
             display: block;
+            width: 80%;
             margin: 10px auto;
-            padding: 10px;
+            padding: 12px;
             font-size: 16px;
             cursor: pointer;
+            border-radius: 5px;
+            border: 1px solid #007bff;
+            background-color: #d7eaff;
+            transition: background 0.3s, color 0.3s;
+        }
+        .option-btn:hover {
+            background-color: #007bff;
+            color: white;
+        }
+        .selected {
+            background-color: #0056b3 !important;
+            color: white !important;
+        }
+        .next-btn {
+            background-color: #007bff;
+            color: white;
+            font-size: 18px;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .next-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <h1>Finnish Vocabulary Practice</h1>
+    <div class="container">
+        <!-- 组 Logo -->
+        <img src="https://raw.githubusercontent.com/Willjuzi/finnish-practice/main/20250212185049.jpg" class="logo" alt="Team Logo">
 
-    <!-- 📌 分组选择功能 -->
-    <label for="group-selector">Select Group:</label>
-    <select id="group-selector">
-        <option value="1">Group 1 - Verbs</option>
-        <option value="2">Group 2 - Nouns</option>
-        <option value="3">Group 3 - Grammar</option>
-    </select>
+        <h1>Learning Finnish - Have Fun!</h1>
 
-    <div id="question-container"></div>
+        <label for="group-selector">Select Group:</label>
+        <select id="group-selector"></select>
 
-    <button id="next-btn">Next Question</button>
+        <div id="question-container"></div>
+
+        <button id="next-btn" class="next-btn">Next Question</button>
+    </div>
 
     <script src="main.js"></script>
 </body>
