@@ -130,15 +130,29 @@ function checkAnswer(selected, correct, ttsText) {
     speak(ttsText);
 }
 
-// **语音朗读（使用 Google Translate API 进行芬兰语发音）**
+// **语音朗读（优先使用 Web Speech API，如果不支持芬兰语，则回退到 Google Translate API）**
 function speak(text) {
-    let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
-    audio.oncanplaythrough = () => {
-        audio.play().catch(error => console.error("Audio play failed:", error));
-    };
-    audio.onerror = () => {
-        console.error("Error loading the TTS audio.");
-    };
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'fi-FI'; // 指定芬兰语
+
+    // **尝试获取芬兰语的发音**
+    const voices = speechSynthesis.getVoices();
+    const finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
+    
+    if (finnishVoice) {
+        // **如果找到芬兰语发音，使用 Web Speech API**
+        utterance.voice = finnishVoice;
+        speechSynthesis.speak(utterance);
+    } else {
+        // **如果没有找到芬兰语发音，使用 Google Translate API**
+        let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
+        audio.oncanplaythrough = () => {
+            audio.play().catch(error => console.error("Audio play failed:", error));
+        };
+        audio.onerror = () => {
+            console.error("Error loading the TTS audio.");
+        };
+    }
 }
 
 // **下一题**
