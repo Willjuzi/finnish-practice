@@ -98,7 +98,7 @@ function showQuestion() {
     container.innerHTML = '';
 
     if (currentQuestionIndex >= questions.length) {
-        alert(`🎉 练习完成！你已经完成了本组的所有题目！`);
+        alert(`🎉 Practice complete! You have finished all questions in this group!`);
         currentQuestionIndex = 0;
         showQuestion();
         return;
@@ -123,36 +123,17 @@ function showQuestion() {
 // **检查答案**
 function checkAnswer(selected, correct, ttsText) {
     if (selected === correct) {
-        alert("🎉 你太厉害了！");
+        alert("🎉 Congratulations! You got it right! Keep going! 🚀");
     } else {
-        alert(`❌ 继续加油！正确答案是: ${correct}`);
+        alert(`❌ Oops! Try again! The correct answer is: ${correct} 😉`);
     }
     speak(ttsText);
 }
 
-// **语音朗读**
+// **语音朗读（使用 Google Translate API 进行芬兰语发音）**
 function speak(text) {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'fi-FI';
-
-    // **检查浏览器是否支持芬兰语**
-    speechSynthesis.onvoiceschanged = () => {
-        let voices = speechSynthesis.getVoices();
-        console.log("Available voices:", voices);
-        let finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
-        if (finnishVoice) {
-            utterance.voice = finnishVoice;
-        }
-        speechSynthesis.speak(utterance);
-    };
-
-    let voices = speechSynthesis.getVoices();
-    let finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
-    if (finnishVoice) {
-        utterance.voice = finnishVoice;
-    }
-    
-    speechSynthesis.speak(utterance);
+    let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
+    audio.play();
 }
 
 // **下一题**
