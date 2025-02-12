@@ -4,6 +4,7 @@ let rawQuestions = [];
 let questions = [];
 let currentQuestionIndex = 0;
 let selectedGroup = 1;
+let completedGroups = new Set();
 
 // **Google Sheets CSV 访问链接**
 const sheetURL = "https://docs.google.com/spreadsheets/d/1pgTIuGFEYBWVVW8MARVXBZiI0Eb7TghJakZOuK1P1HA/gviz/tq?tqx=out:csv";
@@ -98,9 +99,8 @@ function showQuestion() {
     container.innerHTML = '';
 
     if (currentQuestionIndex >= questions.length) {
+        completedGroups.add(selectedGroup);
         alert(`🎉 Practice complete! You have finished all questions in this group!`);
-        currentQuestionIndex = 0;
-        showQuestion();
         return;
     }
 
@@ -133,7 +133,12 @@ function checkAnswer(selected, correct, ttsText) {
 // **语音朗读（使用 Google Translate API 进行芬兰语发音）**
 function speak(text) {
     let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
-    audio.play();
+    audio.oncanplaythrough = () => {
+        audio.play().catch(error => console.error("Audio play failed:", error));
+    };
+    audio.onerror = () => {
+        console.error("Error loading the TTS audio.");
+    };
 }
 
 // **下一题**
