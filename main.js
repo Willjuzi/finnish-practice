@@ -1,9 +1,9 @@
 // main.js
 
-let rawQuestions = [];  // 从 Google Sheets 解析的原始数据
-let questions = [];     // 当前组别的题目
+let rawQuestions = [];
+let questions = [];
 let currentQuestionIndex = 0;
-let selectedGroup = 1;  // 默认选择第 1 组
+let selectedGroup = 1;
 
 // **Google Sheets CSV 访问链接**
 const sheetURL = "https://docs.google.com/spreadsheets/d/1pgTIuGFEYBWVVW8MARVXBZiI0Eb7TghJakZOuK1P1HA/gviz/tq?tqx=out:csv";
@@ -13,6 +13,7 @@ fetch(sheetURL)
   .then(response => response.text())
   .then(csvText => {
     rawQuestions = parseCSV(csvText);
+    updateGroupSelector();
     updateQuestionSet();
     showQuestion();
   })
@@ -28,25 +29,53 @@ function parseCSV(csvText) {
     }));
 }
 
-// **根据选定的组别更新题库**
+// **更新组别选择框**
+function updateGroupSelector() {
+    const groupSelector = document.getElementById("group-selector");
+    groupSelector.innerHTML = "";
+
+    let uniqueGroups = [...new Set(rawQuestions.map(q => q.group))];
+    uniqueGroups.sort((a, b) => a - b);
+
+    uniqueGroups.forEach(groupNum => {
+        let option = document.createElement("option");
+        option.value = groupNum;
+        option.textContent = `Group ${groupNum}`;
+        groupSelector.appendChild(option);
+    });
+
+    groupSelector.addEventListener("change", (event) => {
+        selectedGroup = parseInt(event.target.value, 10);
+        updateQuestionSet();
+        showQuestion();
+    });
+
+    if (uniqueGroups.length > 0) {
+        selectedGroup = uniqueGroups[0];
+        updateQuestionSet();
+    }
+}
+
+// **更新当前题库**
 function updateQuestionSet() {
     let filteredQuestions = rawQuestions.filter(q => q.group === selectedGroup);
+    filteredQuestions = shuffleArray(filteredQuestions);
 
     questions = filteredQuestions.map(q => {
         let options = generateOptions(q.finnish, filteredQuestions);
         return {
-            question: q.english,   // 题目显示英语单词
-            options: options,      // 选项显示芬兰语单词
-            answer: q.finnish,     // 正确答案
-            ttsText: q.finnish     // 朗读芬兰语单词
+            question: q.english,
+            options: options,
+            answer: q.finnish,
+            ttsText: q.finnish
         };
     });
 
-    // **随机化题目顺序**
     questions = shuffleArray(questions);
+    currentQuestionIndex = 0;
 }
 
-// **从当前组别生成干扰项**
+// **生成选项（只从当前组别选择干扰项）**
 function generateOptions(correctAnswer, groupQuestions) {
     let distractorPool = groupQuestions.map(q => q.finnish).filter(ans => ans !== correctAnswer);
     let shuffledDistractors = shuffleArray(distractorPool).slice(0, 3);
@@ -54,7 +83,7 @@ function generateOptions(correctAnswer, groupQuestions) {
     return shuffleArray(options);
 }
 
-// **Fisher-Yates 洗牌算法**
+// **随机化数组**
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -63,35 +92,40 @@ function shuffleArray(array) {
     return array;
 }
 
-// **显示当前题目**
+// **显示题目**
 function showQuestion() {
     const container = document.getElementById('question-container');
     container.innerHTML = '';
 
-    if (questions.length === 0) return;
+    if (currentQuestionIndex >= questions.length) {
+        alert(`🎉 练习完成！你已经完成了本组的所有题目！`);
+        currentQuestionIndex = 0;
+        showQuestion();
+        return;
+    }
 
     const questionObj = questions[currentQuestionIndex];
 
-    // **显示英语题目**
     const questionElem = document.createElement('h2');
+    questionElem.className = "question-text";
     questionElem.textContent = questionObj.question;
     container.appendChild(questionElem);
 
-    // **创建芬兰语选项按钮**
     questionObj.options.forEach(finnishWord => {
         const btn = document.createElement('button');
         btn.textContent = finnishWord;
+        btn.className = "option-btn";
         btn.onclick = () => checkAnswer(finnishWord, questionObj.answer, questionObj.ttsText);
         container.appendChild(btn);
     });
 }
 
 // **检查答案**
-function checkAnswer(selectedFinnish, correctFinnish, ttsText) {
-    if (selectedFinnish === correctFinnish) {
-        alert('Correct!');
+function checkAnswer(selected, correct, ttsText) {
+    if (selected === correct) {
+        alert("🎉 你太厉害了！");
     } else {
-        alert(`Incorrect. The correct answer is: ${correctFinnish}`);
+        alert(`❌ 继续加油！正确答案是: ${correct}`);
     }
     speak(ttsText);
 }
@@ -101,31 +135,28 @@ function speak(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'fi-FI';
 
-    const setFinnishVoice = () => {
-        const voices = speechSynthesis.getVoices();
-        const finnishVoice = voices.find(voice => voice.lang.toLowerCase().startsWith('fi'));
+    // **检查浏览器是否支持芬兰语**
+    speechSynthesis.onvoiceschanged = () => {
+        let voices = speechSynthesis.getVoices();
+        console.log("Available voices:", voices);
+        let finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
         if (finnishVoice) {
             utterance.voice = finnishVoice;
         }
         speechSynthesis.speak(utterance);
     };
 
-    if (speechSynthesis.getVoices().length === 0) {
-        speechSynthesis.addEventListener('voiceschanged', setFinnishVoice);
-    } else {
-        setFinnishVoice();
+    let voices = speechSynthesis.getVoices();
+    let finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
+    if (finnishVoice) {
+        utterance.voice = finnishVoice;
     }
+    
+    speechSynthesis.speak(utterance);
 }
 
 // **下一题**
 document.getElementById('next-btn').addEventListener('click', () => {
-    currentQuestionIndex = (currentQuestionIndex + 1) % questions.length;
-    showQuestion();
-});
-
-// **切换组别**
-document.getElementById('group-selector').addEventListener('change', (event) => {
-    selectedGroup = parseInt(event.target.value, 10);
-    updateQuestionSet();
+    currentQuestionIndex++;
     showQuestion();
 });
