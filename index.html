@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Finnish Practice</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish Vocabulary Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        select {
+            font-size: 16px;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+        #question-container {
+            margin: 20px 0;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Finnish Practice</h1>
-    <div id="question-container">
-      <!-- Questions will be loaded here -->
-    </div>
-    <button id="next-btn">Next</button>
-  </div>
-  
-  <script src="main.js"></script>
+
+    <h1>Finnish Vocabulary Practice</h1>
+
+    <!-- 📌 分组选择功能 -->
+    <label for="group-selector">Select Group:</label>
+    <select id="group-selector">
+        <option value="1">Group 1 - Verbs</option>
+        <option value="2">Group 2 - Nouns</option>
+        <option value="3">Group 3 - Grammar</option>
+    </select>
+
+    <div id="question-container"></div>
+
+    <button id="next-btn">Next Question</button>
+
+    <script src="main.js"></script>
 </body>
 </html>
