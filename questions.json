@@ -2,3181 +2,3181 @@
     {
         "finnish": "koira",
         "english": "dog",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kissa",
         "english": "cat",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "hevonen",
         "english": "horse",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lammas",
         "english": "sheep",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lehmä",
         "english": "cow",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kana",
         "english": "chicken",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "sika",
         "english": "pig",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kala",
         "english": "fish",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "hiiri",
         "english": "mouse",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "karhu",
         "english": "bear",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "susi",
         "english": "wolf",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "jänis",
         "english": "rabbit",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "talo",
         "english": "house",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kirja",
         "english": "book",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "pöytä",
         "english": "table",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "tuoli",
         "english": "chair",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "ikkuna",
         "english": "window",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "ovi",
         "english": "door",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "seinä",
         "english": "wall",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "katto",
         "english": "roof",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lattia",
         "english": "floor",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "sänky",
         "english": "bed",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "jääkaappi",
         "english": "fridge",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lamppu",
         "english": "lamp",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "sukunimi",
         "english": "surname",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "etunimi",
         "english": "first name",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "nimi",
         "english": "name",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kurssipäivä",
         "english": "course day",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "maanantai",
         "english": "Monday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "tiistai",
         "english": "Tuesday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "keskiviikko",
         "english": "Wednesday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "torstai",
         "english": "Thursday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "perjantai",
         "english": "Friday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lauantai",
         "english": "Saturday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "sunnuntai",
         "english": "Sunday",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kello",
         "english": "clock/o'clock",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "opettaja",
         "english": "teacher",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "paikka",
         "english": "place/seat",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "koti",
         "english": "home",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kioski",
         "english": "kiosk",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "jäätelö",
         "english": "ice cream",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "sää",
         "english": "weather",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "työpaikka",
         "english": "workplace",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kieli",
         "english": "language",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "äidinkieli",
         "english": "mother tongue",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "englanti",
         "english": "English",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "portugali",
         "english": "Portuguese",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "ystävä",
         "english": "friend",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "videopuhelu",
         "english": "video call",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lapsi",
         "english": "child",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "tyttö",
         "english": "girl",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "bussikuski",
         "english": "bus driver",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "huone",
         "english": "room",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "keittiö",
         "english": "kitchen",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "perhe",
         "english": "family",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "suku",
         "english": "extended family",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "pikkusisko",
         "english": "younger sister",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "isoveli",
         "english": "older brother",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "täti",
         "english": "aunt",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "setä",
         "english": "uncle",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "serkku",
         "english": "cousin",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kerros",
         "english": "floor/storey",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kauppa",
         "english": "shop",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "pyörä",
         "english": "bicycle",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "herätyskello",
         "english": "alarm clock",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "aamiainen",
         "english": "breakfast",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "murot",
         "english": "cereal",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "leipä",
         "english": "bread",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "ruoka",
         "english": "food/meal",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lounasravintola",
         "english": "lunch restaurant",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kokki",
         "english": "cook/chef",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "päiväkoti",
         "english": "kindergarten",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "apteekki",
         "english": "pharmacy",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "koulu",
         "english": "school",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "jalkapallo",
         "english": "football/soccer",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kenkä",
         "english": "shoe",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "asuntoilmoitus",
         "english": "apartment advertisement",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "vuokra",
         "english": "rent",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "neliömetri (m²)",
         "english": "square meter",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "parveke",
         "english": "balcony",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "vuokralainen",
         "english": "tenant",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "keskusta",
         "english": "city center",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "sähköpostiosoite",
         "english": "email address",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kevät",
         "english": "spring",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kesä",
         "english": "summer",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "syksy",
         "english": "autumn",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "talvi",
         "english": "winter",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "tammikuu",
         "english": "January",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "helmikuu",
         "english": "February",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "maaliskuu",
         "english": "March",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "huhtikuu",
         "english": "April",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "toukokuu",
         "english": "May",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "kesäkuu",
         "english": "June",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "heinäkuu",
         "english": "July",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "elokuu",
         "english": "August",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "syyskuu",
         "english": "September",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "lokakuu",
         "english": "October",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "marraskuu",
         "english": "November",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "joulukuu",
         "english": "December",
-        "group": 0
+        "group": "Noun"
     },
     {
         "finnish": "juoda",
         "english": "to drink",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "syödä",
         "english": "to eat",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "nukkua",
         "english": "to sleep",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "kävellä",
         "english": "to walk",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "juosta",
         "english": "to run",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "puhua",
         "english": "to speak",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "kuulla",
         "english": "to hear",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "nähdä",
         "english": "to see",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "kirjoittaa",
         "english": "to write",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "lukea",
         "english": "to read",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "oppia",
         "english": "to learn",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "ymmärtää",
         "english": "to understand",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "nauraa",
         "english": "to laugh",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "nousta",
         "english": "to rise",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "opiskella",
         "english": "to study",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "ostaa",
         "english": "to buy",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "ottaa",
         "english": "to take",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "pelata",
         "english": "to play (games/sports)",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "pestä",
         "english": "to wash",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "piirtää",
         "english": "to draw",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "polttaa",
         "english": "to smoke",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "pukea",
         "english": "to dress",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "rakastaa",
         "english": "to love",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "sanoa",
         "english": "to say",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "saunoa",
         "english": "to sauna",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "seisoa",
         "english": "to stand",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "siivota",
         "english": "to clean",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "soida",
         "english": "to call (phone)",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "soittaa",
         "english": "to play (music)/to call",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "tanssia",
         "english": "to dance",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "tehdä",
         "english": "to make",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "tilata",
         "english": "to order",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "tiskaata",
         "english": "to wash dishes",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "tulla",
         "english": "to come",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "uida",
         "english": "to swim",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "valita",
         "english": "to choose",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "maksaa",
         "english": "to pay/to cost",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "etsiä",
         "english": "to search",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "herätä",
         "english": "to wake up",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "ajaa",
         "english": "to drive",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "antaa",
         "english": "to give",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "asua",
         "english": "to live",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "avata",
         "english": "to open",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "herättää",
         "english": "to wake someone up",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "hiihtää",
         "english": "to ski",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "hymyillä",
         "english": "to smile",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "häiritä",
         "english": "to disturb",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "imuroida",
         "english": "to vacuum",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "itkeä",
         "english": "to cry",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "juhlia",
         "english": "to celebrate",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "katsoa",
         "english": "to watch",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "keskustella",
         "english": "to discuss",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "korjata",
         "english": "to fix",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "laulaa",
         "english": "to sing",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "lentää",
         "english": "to fly",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "lasketella",
         "english": "to downhill ski",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "lähteä",
         "english": "to leave",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "matkustaa",
         "english": "to travel",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "mennä",
         "english": "to go",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "myydä",
         "english": "to sell",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "pyöräillä",
         "english": "to cycle",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "tiedustella",
         "english": "to inquire",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "viedä",
         "english": "to take (something)",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "odottaa",
         "english": "to wait",
-        "group": 0
+        "group": "Verb"
     },
     {
         "finnish": "vapaa",
         "english": "free/unoccupied",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "iloinen",
         "english": "happy",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "musta",
         "english": "black",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "kihara",
         "english": "curly",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "tumma",
         "english": "dark",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "söpö",
         "english": "cute",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "ujo",
         "english": "shy",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "hoikka",
         "english": "slim",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "vihreä",
         "english": "green",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "rauhallinen",
         "english": "calm",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "helppo",
         "english": "easy",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "hieno",
         "english": "great",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "huono",
         "english": "bad",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "pimeä",
         "english": "dark",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "tyhjä",
         "english": "empty",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "hirveän kallis",
         "english": "terribly expensive",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "herkullinen",
         "english": "delicious",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "väsynyt",
         "english": "tired",
-        "group": 0
+        "group": "Adjective"
     },
     {
         "finnish": "Hei",
         "english": "Hello",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Terve",
         "english": "Hello (casual)",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Kiitos",
         "english": "Thank you",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Mitä kuuluu",
         "english": "How are you?",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Tervetuloa",
         "english": "Welcome",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Minulle kuuluu hyvää",
         "english": "I'm doing well",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Anteeksi",
         "english": "Sorry/Excuse me",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Okei",
         "english": "OK",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Entä sinulle",
         "english": "And you?",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Ihan hyvää",
         "english": "Quite good",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Hauska tutustua",
         "english": "Nice to meet you",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Kiitos samoin",
         "english": "Thanks you too",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Moi",
         "english": "Hi",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "nähdään",
         "english": "See you",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Ai jaa!",
         "english": "Oh really!",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "No joo",
         "english": "Well yes",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "Niin",
         "english": "So/Indeed",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "totta",
         "english": "True",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "oho",
         "english": "Oh! (exclamation)",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "toivottavasti",
         "english": "hopefully",
-        "group": 0
+        "group": "Phrase"
     },
     {
         "finnish": "nolla",
         "english": "zero",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "yksi",
         "english": "one",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksi",
         "english": "two",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kolme",
         "english": "three",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "neljä",
         "english": "four",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "viisi",
         "english": "five",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kuusi",
         "english": "six",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "seitsemän",
         "english": "seven",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kahdeksan",
         "english": "eight",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "yhdeksän",
         "english": "nine",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kymmenen",
         "english": "ten",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "yksitoista",
         "english": "eleven",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksitoista",
         "english": "twelve",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kolmetoista",
         "english": "thirteen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "neljätoista",
         "english": "fourteen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "viisitoista",
         "english": "fifteen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kuusitoista",
         "english": "sixteen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "seitsemäntoista",
         "english": "seventeen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kahdeksantoista",
         "english": "eighteen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "yhdeksäntoista",
         "english": "nineteen",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksikymmentä",
         "english": "twenty",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksikymmentäyksi",
         "english": "twenty-one",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksikymmentäkaksi",
         "english": "twenty-two",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksikymmentäkolme",
         "english": "twenty-three",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kolmekymmentä",
         "english": "thirty",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "neljäkymmentä",
         "english": "forty",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "viisikymmentä",
         "english": "fifty",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kuusikymmentä",
         "english": "sixty",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "seitsemänkymmentä",
         "english": "seventy",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kahdeksankymmentä",
         "english": "eighty",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "yhdeksänkymmentä",
         "english": "ninety",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "sata",
         "english": "one hundred",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "satayksi",
         "english": "one hundred and one",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksisataa",
         "english": "two hundred",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kolmesataa",
         "english": "three hundred",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "tuhat",
         "english": "one thousand",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksituhatta",
         "english": "two thousand",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "viisituhatta",
         "english": "five thousand",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kymmenentuhatta",
         "english": "ten thousand",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "miljoona",
         "english": "one million",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "kaksi miljoonaa",
         "english": "two million",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "viisi miljoonaa",
         "english": "five million",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "miljardi",
         "english": "one billion",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "viisi miljardia",
         "english": "five billion",
-        "group": 0
+        "group": "Number"
     },
     {
         "finnish": "nyt",
         "english": "now",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "ennen",
         "english": "before",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "yli",
         "english": "over/past",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "myös",
         "english": "also",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "vähän",
         "english": "a little",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "ei vielä",
         "english": "not yet",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "vasta",
         "english": "only/just",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "puoli",
         "english": "half",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "aika",
         "english": "time/quite",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "ehkä",
         "english": "maybe",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "usein",
         "english": "often",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "iltaisin",
         "english": "in the evenings",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "yhdessä",
         "english": "together",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "sen jälkeen",
         "english": "after that",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "sitten",
         "english": "then",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "tosi",
         "english": "very/really",
-        "group": 0
+        "group": "Adverb"
     },
     {
         "finnish": "käydä kylässä",
         "english": "visit someone",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kiva",
         "english": "nice",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pitkästä aikaa",
         "english": "long time no see",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Niin sinuakin!",
         "english": "so do you!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tässä",
         "english": "here",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kassi",
         "english": "bag",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tuliainen",
         "english": "souvenir",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tuore",
         "english": "fresh",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pulla",
         "english": "bun",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "mielellämme",
         "english": "gladly",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Tulkaa pöytään!",
         "english": "come to the table!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "matka",
         "english": "trip",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "meni",
         "english": "went",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tulitte",
         "english": "you came",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "juna",
         "english": "train",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "meillä oli",
         "english": "we had",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "oli",
         "english": "was",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vaikka",
         "english": "although",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "melkein",
         "english": "almost",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "puoli",
         "english": "half",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tunti",
         "english": "hour",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "olla myöhässä",
         "english": "be late",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "aikoa",
         "english": "intend",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "näyttää",
         "english": "show",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "minulle",
         "english": "to me",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kaikki",
         "english": "everything",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tärkeä",
         "english": "important",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "paikka",
         "english": "place",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ensimmäistä kertaa",
         "english": "for the first time",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ensimmäinen",
         "english": "first",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ainakin",
         "english": "at least",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "museokeskus",
         "english": "museum center",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kauppahalli",
         "english": "market hall",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "näkötorni",
         "english": "observation tower",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Hyvä idea!",
         "english": "good idea!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sieltä",
         "english": "from there",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "upea",
         "english": "great",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "näköala",
         "english": "view",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kahvila",
         "english": "café",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "herkullinen",
         "english": "delicious",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "munkki",
         "english": "donut",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Niin onkin!",
         "english": "so it is!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "jos",
         "english": "if",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "jaksaa",
         "english": "have energy",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ehkä",
         "english": "maybe",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "huvipuisto",
         "english": "amusement park",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "maistaa",
         "english": "taste",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "mustamakkara",
         "english": "black sausage",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kaveri",
         "english": "friend",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sanoi",
         "english": "said",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tamperelainen",
         "english": "from Tampere",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "erikoisuus",
         "english": "specialty",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sitä",
         "english": "it",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "puolukkahillo",
         "english": "lingonberry jam",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "muuten",
         "english": "otherwise",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "yöpyä",
         "english": "stay overnight",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "hotelli",
         "english": "hotel",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tarjous",
         "english": "offer",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Sehän on kiva!",
         "english": "that's nice!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "mökki",
         "english": "cottage",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "saari",
         "english": "island",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sinne",
         "english": "there",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vene",
         "english": "boat",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tykätä",
         "english": "like",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "saunoa",
         "english": "take a sauna",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "järvi",
         "english": "lake",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tavata",
         "english": "meet",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pari kertaa vuodessa",
         "english": "a couple of times a year",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "No varmasti!",
         "english": "surely!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "asuntoilmoitus",
         "english": "apartment listing",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vuokra",
         "english": "rent",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vuokralle annetaan",
         "english": "for rent",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "neliömetri",
         "english": "square meter",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kuukausi",
         "english": "month",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vesimaksu",
         "english": "water fee",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "henkilö",
         "english": "person",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "2 huonetta keittiö ja parveke",
         "english": "2 rooms kitchen and balcony",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "hyväkuntoinen",
         "english": "in good condition",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kaksio",
         "english": "two-room apartment",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kerrostalo",
         "english": "apartment building",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "rauhallinen",
         "english": "peaceful",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sijainti",
         "english": "location",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "viihtyisä",
         "english": "cozy",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "alue",
         "english": "area",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "hissi",
         "english": "elevator",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "parveke",
         "english": "balcony",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tila",
         "english": "space",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ruokapöytä",
         "english": "dining table",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sauna",
         "english": "sauna",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pesutupa",
         "english": "laundry room",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kellari",
         "english": "cellar",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "parkkipaikka",
         "english": "parking space",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "etupiha",
         "english": "front yard",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vuokratakuu",
         "english": "rental deposit",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "yhteydenotto",
         "english": "contact",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sähköpostitse",
         "english": "by email",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vuokranantaja",
         "english": "landlord",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "näyttää hyvältä",
         "english": "looks good",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "neliö",
         "english": "square",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "missä päin",
         "english": "where",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "odottaa",
         "english": "wait",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ihan",
         "english": "quite",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "juna",
         "english": "train",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "keskusta",
         "english": "city center",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "plus",
         "english": "plus",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Ohhoh!",
         "english": "oh wow!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "hirveän kallis",
         "english": "very expensive",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Niin on.",
         "english": "so it is.",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "mennään",
         "english": "let's go",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "silti",
         "english": "still",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "mennä katsomaan",
         "english": "go see",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "Mennään vaan!",
         "english": "let’s go!",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "näyttö",
         "english": "display",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sähköpostiosoite",
         "english": "email address",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "muutto",
         "english": "moving",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "lounas",
         "english": "lunch",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ulos",
         "english": "outside",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ikkuna",
         "english": "window",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "piha",
         "english": "yard",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pakettiauto",
         "english": "van",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "nostaa",
         "english": "lift",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "laatikko",
         "english": "box",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "katu",
         "english": "street",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "nainen",
         "english": "woman",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kantaa",
         "english": "carry",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sisään",
         "english": "inside",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tapahtua",
         "english": "happen",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "naapuri",
         "english": "neighbor",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "apu",
         "english": "help",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "viedä",
         "english": "bring",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vaikka",
         "english": "for example",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tämä",
         "english": "this",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "lamppu",
         "english": "lamp",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pöytä",
         "english": "table",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "olohuone",
         "english": "living room",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "voida",
         "english": "can",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tuo",
         "english": "that",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ottaa",
         "english": "take",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "nämä",
         "english": "these",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tuoli",
         "english": "chair",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "käydä",
         "english": "visit",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kellari",
         "english": "cellar",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ylös",
         "english": "up",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ovi",
         "english": "door",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "auki",
         "english": "open",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "herätä",
         "english": "wake up",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "herätyskello",
         "english": "alarm clock",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "soida",
         "english": "ring",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "käydä suihkussa",
         "english": "take a shower",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pukea päälle",
         "english": "put on clothes",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sen jälkeen",
         "english": "after that",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tehdä",
         "english": "do",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "aamupala",
         "english": "breakfast",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "lukea",
         "english": "read",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "lehti",
         "english": "newspaper",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "yhdessä",
         "english": "together",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "syödä",
         "english": "eat",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "yleensä",
         "english": "usually",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "muroja",
         "english": "cereal",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "leipä",
         "english": "bread",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "ei mitään",
         "english": "nothing",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "juoda",
         "english": "drink",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "vain",
         "english": "only",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kahvi",
         "english": "coffee",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "lounasravintola",
         "english": "lunch restaurant",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kokki",
         "english": "chef",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tehdä ruokaa",
         "english": "cook food",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "työkaveri",
         "english": "colleague",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kävellä",
         "english": "walk",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "päiväkoti",
         "english": "daycare",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "apteekki",
         "english": "pharmacy",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "koulu",
         "english": "school",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kahdelta",
         "english": "at two o'clock",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kaveri",
         "english": "friend",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pelata",
         "english": "play",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "jalkapallo",
         "english": "football",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "iltaisin",
         "english": "in the evening",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "usein",
         "english": "often",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "jotain",
         "english": "something",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "uimahalli",
         "english": "swimming hall",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "uida",
         "english": "swim",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tunti",
         "english": "hour",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kenkä",
         "english": "shoe",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "tarvita",
         "english": "need",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "valita",
         "english": "choose",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sandaalit",
         "english": "sandals",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "haluta",
         "english": "want",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "katsoa",
         "english": "watch",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "väsynyt",
         "english": "tired",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kirja",
         "english": "book",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "yhdeksältä",
         "english": "at nine o'clock",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "pestä hampaat",
         "english": "brush teeth",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "sanoa",
         "english": "say",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "mennä nukkumaan",
         "english": "go to sleep",
-        "group": 0
+        "group": "5-7"
     },
     {
         "finnish": "kurssilla",
         "english": "on the course",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "puhun",
         "english": "I speak",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kavereiden",
         "english": "friends'",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kanssa",
         "english": "with",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kaapissa",
         "english": "in the cupboard",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kaupassa",
         "english": "in the shop",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "koulussa",
         "english": "at school",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "korissa",
         "english": "in the basket",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "laitan",
         "english": "I put",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "aamupalaa",
         "english": "breakfast (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "keitän",
         "english": "I boil",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kahvia",
         "english": "coffee (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "keitossa",
         "english": "in the kettle",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "keittiössä",
         "english": "in the kitchen",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "tapaan",
         "english": "I meet",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kaverit",
         "english": "friends",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "syömme",
         "english": "we eat",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ihanaa",
         "english": "wonderful (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "mutta",
         "english": "but",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kallista",
         "english": "expensive (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ruokaa",
         "english": "food (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "olemme",
         "english": "we are",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "jääkaapissa",
         "english": "in the fridge",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "rannalla",
         "english": "at the beach",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ravintolassa",
         "english": "in the restaurant",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ruokakaupassa",
         "english": "in the grocery store",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "sää",
         "english": "weather",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ihana",
         "english": "wonderful",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "aurinko",
         "english": "sun",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "paistaa",
         "english": "to shine",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "linnut",
         "english": "birds",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "laulavat",
         "english": "they sing",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "puissa",
         "english": "in the trees",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kävelemme",
         "english": "we walk",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "järvessä",
         "english": "in the lake",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "merellä",
         "english": "at the sea",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "metsässä",
         "english": "in the forest",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vuorella",
         "english": "on the mountain",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "haluan",
         "english": "I want",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ostaa",
         "english": "to buy",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "uuden",
         "english": "new (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "takin",
         "english": "coat (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "etsin",
         "english": "I search",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vaatekaupan",
         "english": "clothing store (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kirpputorilla",
         "english": "at the flea market",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ostoskeskuksessa",
         "english": "in the shopping center",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pyykkituvassa",
         "english": "in the laundry room",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vaatekaapissa",
         "english": "in the wardrobe",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Tampereella",
         "english": "in Tampere",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "uin",
         "english": "I swam",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kalastan",
         "english": "I fish",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "monta",
         "english": "many",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "tuntia",
         "english": "hours (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "järvellä",
         "english": "on the lake",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "meressä",
         "english": "in the sea",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "uimahallissa",
         "english": "in the swimming hall",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "urheiluhallissa",
         "english": "in the sports hall",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "minulla",
         "english": "I have",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "allerginen",
         "english": "allergic",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "flunssa",
         "english": "flu",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "etsin",
         "english": "I look for",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "antihistamiinia",
         "english": "antihistamines (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "apteekissa",
         "english": "at the pharmacy",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "R-kioskilla",
         "english": "at R-kiosk",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "puistossa",
         "english": "in the park",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "sairaalassa",
         "english": "in the hospital",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "tapaan",
         "english": "I meet",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "TAMK-tuutorin",
         "english": "TAMK tutor (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "puhun",
         "english": "I speak",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "hänen",
         "english": "their",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "stipendimaksuista",
         "english": "scholarship fees (elative)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "opinnoista",
         "english": "studies (elative)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "hississä",
         "english": "in the elevator",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "lomamatkalla",
         "english": "on vacation",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "toimistossa",
         "english": "in the office",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "torilla",
         "english": "at the market square",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ostan",
         "english": "I buy",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "eväsleivän",
         "english": "sandwich (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "juotavaa",
         "english": "drinkable (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "istun",
         "english": "I sit",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "penkille",
         "english": "onto the bench",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "katson",
         "english": "I watch",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "turisteja",
         "english": "tourists (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "bussipysäkillä",
         "english": "at the bus stop",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "juna-asemalla",
         "english": "at the train station",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "rautatieasemalla",
         "english": "at the railway station",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "olohuoneessa",
         "english": "in the living room",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pöydällä",
         "english": "on the table",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "televisiota",
         "english": "television (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pari",
         "english": "a couple",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "tuntia",
         "english": "hours (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pesen",
         "english": "I wash",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "hampaat",
         "english": "teeth",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "menen",
         "english": "I go",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "nukkumaan",
         "english": "to sleep",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kotona",
         "english": "at home",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pihalla",
         "english": "in the yard",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "töissä",
         "english": "at work",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vessassa",
         "english": "in the bathroom",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "koira",
         "english": "dog",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "istuu",
         "english": "sits",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "sohvalla",
         "english": "on the sofa",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ruoka",
         "english": "food",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "jääkaapissa",
         "english": "in the fridge",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "puhelin",
         "english": "phone",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "yöpöydässä",
         "english": "on the nightstand",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pallo",
         "english": "ball",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "lattialla",
         "english": "on the floor",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "keltainen",
         "english": "yellow",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "paita",
         "english": "shirt",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pyykkikorissa",
         "english": "in the laundry basket",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "saunassa",
         "english": "in the sauna",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "isä",
         "english": "father",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "lapsi",
         "english": "child",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "leikkivät",
         "english": "they play",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Anton",
         "english": "Anton",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Jon",
         "english": "Jon",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "istuvat",
         "english": "they sit",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kahvilassa",
         "english": "in the café",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pysäkillä",
         "english": "at the stop",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "mummolla",
         "english": "at Grandma's",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "leikkaus",
         "english": "surgery",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "aamulla",
         "english": "in the morning",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "viettää",
         "english": "to spend",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "päivää",
         "english": "day (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "haluamme",
         "english": "we want",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "käydä",
         "english": "to visit",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "onko",
         "english": "is there",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vietän",
         "english": "I spend",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "koko",
         "english": "whole",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "päivän",
         "english": "day (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Nicossa",
         "english": "in Nicosia",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Laura",
         "english": "Laura",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "matkalla",
         "english": "on the way",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Portugalissa",
         "english": "in Portugal",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Joonas",
         "english": "Joonas",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "asuu",
         "english": "lives",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Tampereellä",
         "english": "in Tampere",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Marina",
         "english": "Marina",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kotoisin",
         "english": "originally",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Ranskasta",
         "english": "from France",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Noora",
         "english": "Noora",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "nykyään",
         "english": "nowadays",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Vantaalla",
         "english": "in Vantaa",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Tuomas",
         "english": "Tuomas",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Valmetissa",
         "english": "at Valmet",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Sara",
         "english": "Sara",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "haluaa",
         "english": "wants",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "muuttaa",
         "english": "to move",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Ouluun",
         "english": "to Oulu",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "huomenna",
         "english": "tomorrow",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kuntosalille",
         "english": "to the gym",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "käyn",
         "english": "I go",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "illalla",
         "english": "in the evening",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Prismassa",
         "english": "at Prisma",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "tulee",
         "english": "comes",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kotiin",
         "english": "home",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "koulusta",
         "english": "from school",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "tomaatit",
         "english": "tomatoes",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "jääkaappiin",
         "english": "into the fridge",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vien",
         "english": "I take",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "koiran",
         "english": "dog (genitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pihalle",
         "english": "outside",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "otan",
         "english": "I take",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "vettä",
         "english": "water (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "hanasta",
         "english": "from the tap",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kuuntelen",
         "english": "I listen",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "uutiset",
         "english": "news",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "radiosta",
         "english": "from the radio",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "lapset",
         "english": "children",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "pelaavat",
         "english": "they play",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "jalkapalloa",
         "english": "football (partitive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "shoppailla",
         "english": "to shop",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "Ratinassa",
         "english": "in Ratina",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "soitan",
         "english": "I call",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "äidille",
         "english": "to mom",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "kuulin",
         "english": "I heard",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "opettajalta",
         "english": "from the teacher",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "ensi",
         "english": "next",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "viikolla",
         "english": "week (adessive)",
-        "group": 0
+        "group": "moodle"
     },
     {
         "finnish": "koe",
         "english": "exam",
-        "group": 0
+        "group": "moodle"
     }
 ]
