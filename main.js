@@ -3,7 +3,7 @@
 let rawQuestions = [];
 let questions = [];
 let currentQuestionIndex = 0;
-let selectedGroup = 1;
+let selectedGroup = "";
 let completedGroups = new Set();
 
 // **从本地 questions.json 读取数据**
@@ -11,6 +11,8 @@ fetch('questions.json')
   .then(response => response.json())
   .then(data => {
     rawQuestions = data;
+    console.log("Example question:", data[0]); // 检查第一条数据
+    console.log("Available groups:", [...new Set(data.map(q => q.group))]); // 输出所有 group
     updateGroupSelector();
     updateQuestionSet();
     showQuestion();
@@ -22,18 +24,18 @@ function updateGroupSelector() {
     const groupSelector = document.getElementById("group-selector");
     groupSelector.innerHTML = "";
 
-    let uniqueGroups = [...new Set(rawQuestions.map(q => q.group))];
-    uniqueGroups.sort((a, b) => a - b);
+    let uniqueGroups = [...new Set(rawQuestions.map(q => q.group.trim()))]; // 确保去掉空格
+    uniqueGroups.sort(); // 按字母顺序排列
 
-    uniqueGroups.forEach(groupNum => {
+    uniqueGroups.forEach(groupName => {
         let option = document.createElement("option");
-        option.value = groupNum;
-        option.textContent = `Group ${groupNum}`;
+        option.value = groupName;
+        option.textContent = groupName;
         groupSelector.appendChild(option);
     });
 
     groupSelector.addEventListener("change", (event) => {
-        selectedGroup = parseInt(event.target.value, 10);
+        selectedGroup = event.target.value;
         updateQuestionSet();
         showQuestion();
     });
@@ -46,7 +48,13 @@ function updateGroupSelector() {
 
 // **更新当前题库**
 function updateQuestionSet() {
-    let filteredQuestions = rawQuestions.filter(q => q.group === selectedGroup);
+    let filteredQuestions = rawQuestions.filter(q => q.group.trim().toLowerCase() === selectedGroup.trim().toLowerCase());
+
+    if (filteredQuestions.length === 0) {
+        alert(`⚠️ No questions available in "${selectedGroup}".`);
+        return;
+    }
+
     filteredQuestions = shuffleArray(filteredQuestions);
 
     questions = filteredQuestions.map(q => {
@@ -120,18 +128,16 @@ function checkAnswer(selected, correct, ttsText) {
 // **语音朗读（优先使用 Web Speech API，如果不支持芬兰语，则回退到 Google Translate API）**
 function speak(text) {
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'fi-FI'; // 指定芬兰语
+    utterance.lang = 'fi-FI';
 
-    // **尝试获取芬兰语的发音**
-    const voices = speechSynthesis.getVoices();
-    const finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
-    
+    let voices = speechSynthesis.getVoices();
+    let finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
+
     if (finnishVoice) {
-        // **如果找到芬兰语发音，使用 Web Speech API**
         utterance.voice = finnishVoice;
         speechSynthesis.speak(utterance);
     } else {
-        // **如果没有找到芬兰语发音，使用 Google Translate API**
+        console.warn("No Finnish voice found. Using Google Translate TTS.");
         let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
         audio.oncanplaythrough = () => {
             audio.play().catch(error => console.error("Audio play failed:", error));
@@ -141,11 +147,6 @@ function speak(text) {
         };
     }
 }
-
-// **确保语音库加载**
-speechSynthesis.onvoiceschanged = () => {
-    console.log("Voices loaded:", speechSynthesis.getVoices());
-};
 
 // **下一题**
 document.getElementById('next-btn').addEventListener('click', () => {
