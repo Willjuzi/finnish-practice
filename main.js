@@ -122,26 +122,30 @@ function speak(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'fi-FI'; // 指定芬兰语
 
-    // **确保语音库加载完成**
-    speechSynthesis.onvoiceschanged = () => {
-        const voices = speechSynthesis.getVoices();
-        const finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
-        if (finnishVoice) {
-            utterance.voice = finnishVoice;
-            speechSynthesis.speak(utterance);
-        } else {
-            // **如果找不到芬兰语发音，使用 Google Translate API**
-            let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
-            audio.oncanplaythrough = () => {
-                audio.play().catch(error => console.error("Audio play failed:", error));
-            };
-            audio.onerror = () => {
-                console.error("Error loading the TTS audio.");
-            };
-        }
-    };
-    speechSynthesis.getVoices(); // 触发语音加载
+    // **尝试获取芬兰语的发音**
+    const voices = speechSynthesis.getVoices();
+    const finnishVoice = voices.find(voice => voice.lang.toLowerCase().includes('fi'));
+    
+    if (finnishVoice) {
+        // **如果找到芬兰语发音，使用 Web Speech API**
+        utterance.voice = finnishVoice;
+        speechSynthesis.speak(utterance);
+    } else {
+        // **如果没有找到芬兰语发音，使用 Google Translate API**
+        let audio = new Audio(`https://translate.google.com/translate_tts?ie=UTF-8&tl=fi&client=tw-ob&q=${encodeURIComponent(text)}`);
+        audio.oncanplaythrough = () => {
+            audio.play().catch(error => console.error("Audio play failed:", error));
+        };
+        audio.onerror = () => {
+            console.error("Error loading the TTS audio.");
+        };
+    }
 }
+
+// **确保语音库加载**
+speechSynthesis.onvoiceschanged = () => {
+    console.log("Voices loaded:", speechSynthesis.getVoices());
+};
 
 // **下一题**
 document.getElementById('next-btn').addEventListener('click', () => {
